@@ -12,10 +12,10 @@ var array=['Yaakov',
 
 for(var i=0;i<9;i++)
 {
-  if(array[i]=="J"){
-      console.log("Good bye"+array[i]);
+  if(array[i].charAt(0)=="J"){
+      console.log("Good bye "+array[i]);
   }
   else{
-    console.log("Hello"+array[i]);
+    console.log("Hello "+array[i]);
   }
 }
