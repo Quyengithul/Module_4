@@ -12,7 +12,7 @@ var array=['Yaakov',
 
 for(var i=0;i<9;i++)
 {
-  if(array[i].charAt(0)=="J"){
+  if(array[i].charAt(0)=='J'){
       console.log("Good bye "+array[i]);
   }
   else{
