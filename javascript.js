@@ -10,7 +10,7 @@ var array=['Yaakov',
 'Jim',
 ];
 
-for(var i=0;i<9;i++)
+for(var i=0;i<array.length;i++)
 {
   if(array[i].charAt(0)=='J'){
       console.log("Good bye "+array[i]);
