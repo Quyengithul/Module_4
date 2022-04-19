@@ -1,16 +1,21 @@
-var array=['Hello Yaakov',
-'Good Bye John',
-'Good Bye Jen',
-'Good Bye Jason',
-'Hello Paul',
-'Hello Frank',
-'Hello Larry',
-'Hello Paula',
-'Hello Laura',
-'Good Bye Jim',
+var array=['Yaakov',
+'John',
+'Jen',
+'Jason',
+'Paul',
+'Frank',
+'Larry',
+'Paula',
+'Laura',
+'Jim',
 ];
 
 for(var i=0;i<9;i++)
 {
-console.log(array[i]);
+  if(array[i]=="J"){
+      console.log("Good bye"+array[i]);
+  }
+  else{
+    console.log("Hello"+array[i]);
+  }
 }
